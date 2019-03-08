@@ -1,2 +1,2 @@
 # sample
-first repository
+first repository.
