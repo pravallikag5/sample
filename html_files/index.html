@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Pravallika</title>
     </head>
     <body>
-        <article>
-            <header>
+        <article id="article1">
+            <header id="header1">
                 <nav>
                     <ul>
                         <li>Home</li>
@@ -14,14 +14,52 @@
                     </ul>
                 </nav>
             </header>
-            <section>
-                <article>
-                    <header></header>
-                    <section></section>
-                    <footer></footer>
-                </article>
+            <section id="section1">
+                <form name="applicationForm">
+                    <div>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="phoneNum">Phone Number:</label>
+                        <input type="text" id="phoneNum" name="phoneNumber" placeholder="Phone Number"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="gender">Gender:</label>
+                        <div id="gender">
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender" value="gender"/>
+                            <label for="female">Female</label>
+                            <input type="radio" id="female" name="gender" value="gender"/>
+                        </div>
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="USCitizen">US Citizen</label>
+                        <input type="checkbox" id="USCitizen" name="USCitizen"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <button type="submit" id="submit">
+                            <span>Submit</span>
+                        </button>
+                        <button type="reset" id="reset">
+                            <span>Cancel</span>
+                        </button>
+                    </div>
+                </form>
+                </form>
+                </form>
+                </form>
             </section>
-            <footer>
+            <footer id="footer1">
 
             </footer>
         </article>
