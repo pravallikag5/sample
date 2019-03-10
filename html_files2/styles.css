@@ -1,3 +1,22 @@
 body{
     background-color:red;
 }
+form{
+    border: 2px solid #000;
+    border-radius:50px;
+    margin:50px;
+    padding: 50px;
+}
+label{
+    display: table;
+}
+
+button[type="submit"]{
+    color: #0000ff;
+}
+div{
+    display: inline-block;
+}
+.Name{
+    background-color: #00ff00;
+}
