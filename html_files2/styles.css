@@ -3,20 +3,53 @@ body{
 }
 form{
     border: 2px solid #000;
-    border-radius:50px;
-    margin:50px;
-    padding: 50px;
+   /* display:inline-block;*/ /*to assign a fixed length to the form instead of width of entire screen*/
+
+    /*to display the form at the center of the page*/
+    display: block;     /*takes the width of the entire screen*/
+    width: 250px;       /*specify the width of the form manually */
+    margin-left: auto;  /*margin left and margin right set to auto will place the element at center of the page*/
+    margin-right: auto;
+    /*end of the code to display the form at the center of the page*/
 }
 label{
-    display: table;
+    display: block;
+    padding: 10px 0px
 }
 
 button[type="submit"]{
-    color: #0000ff;
+    background-color: #41b70c;
+}
+button[type="reset"]{
+    background-color: #f71814;
 }
 div{
     display: inline-block;
+    margin: 10px 20px;
+
 }
 .Name{
-    background-color: #00ff00;
+  /*  background-color: #00ff00;*/
+
+}
+/*To display unordered list without bullet points*/
+ul{
+    list-style-type: none;
+}
+/*To display list items of unordered list horizontally*/
+li{
+    display: inline-block;
+    margin: 0 10px;
+}
+button{
+    border: 1px solid #5e5e5e;
+    border-radius: 15px;
+    color:#fff;
+    padding: 5px 10px;
+    margin:10px;
+}
+input[type="text"]{
+    border-radius:15px;
+    padding:5px;
+    height: 15px;
 }
